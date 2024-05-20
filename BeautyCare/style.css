@@ -1,0 +1,444 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Nav bar css*/
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ;
+    border: 2px aliceblue solid;
+    background-color: aliceblue;
+   position: fixed;  
+    width: 100%;   
+}
+
+.navbar:hover{
+    box-shadow:  -2px -2px 10px ;
+}
+
+
+.nav-element{
+  margin-left: 500px;
+}
+
+
+/*navbar anchor tag css*/
+a{
+  text-decoration: none;
+  color: black;
+  float: right;
+  border-radius: 20px;
+  
+}
+
+a:hover{
+    box-shadow: 0px 0px 5px;
+    border:  1px aliceblue solid;
+}
+ 
+/* main page css image and background*/
+.main{
+    background-color: rgb(214, 233, 250);
+    height: 800px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: laisha;
+    
+        
+}
+
+.image{
+    
+     float: right;
+     margin-top: 20px;
+     border-radius: 50%;
+       
+}
+
+.main p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+/* main page 2nd part with alice blue background*/
+  
+.heading{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+}
+
+.shop-section{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: aliceblue;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.box{
+    height:450px;
+    border: 0px solid black;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 50px;
+    font-family: laisha;
+    border-radius: 10%;
+    background-color: white;
+}
+
+/*box 1*/
+.box-image{
+   height: 300px;
+   background-size: cover;
+   border-radius: 20px;
+
+}
+
+.box-content{
+    margin-left:1rem ;
+    margin-right:1rem ;
+    
+}
+
+.box-content a{
+    color:  #007185;
+}
+
+
+/*box2*/
+
+.box-image-1{
+    height: 300px;
+   background-size: cover;
+   border-radius: 20px;
+}
+
+
+.box-content-1{
+    margin-left:1rem ;
+    margin-right:1rem ;
+}
+
+.box-content-1 a{
+    color:  #007185;
+}
+
+/*box 3*/
+.box-image-2{
+    height: 300px;
+   background-size: cover;
+   border-radius: 20px;
+}
+
+
+.box-content-3{
+    margin-left:1rem ;
+    margin-right:1rem ;
+}
+
+.box-content-3 a{
+    color:  #007185;
+}
+ 
+
+.heading{
+    
+    font-family: laisha;
+    display: flex;
+    justify-content: center;
+}
+
+/* main 3   */
+
+.main3{
+     height: 500px;
+     background-color: aliceblue;
+     padding-top: 100px;
+}
+
+.main-heading{
+    font-family: laisha;
+    display: flex;
+    align-content: center;
+    justify-content: center;    
+}
+
+.service{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+
+.service-box{
+   height: 300px;
+   width: 250px;
+   border:   px black solid;
+   border-radius: 20px;
+   text-align: center;
+}
+
+.b1{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    padding: 20px;
+    margin:5px;
+    border-radius:20px ;
+    margin-bottom: 20px;    
+}
+
+.b2{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    padding: 20px;
+    margin:5px;
+    border-radius:20px ;
+    margin-bottom: 20px; 
+}
+
+.b3{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    padding: 20px;
+    margin:5px;
+    border-radius:20px ;
+    margin-bottom: 20px; 
+}
+
+.b4{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    padding: 20px;
+    margin:5px;
+    border-radius:20px ;
+    margin-bottom: 20px; 
+}
+
+
+
+/* main 4th  */
+.main4{
+
+    height: 700px;
+    background-color:rgb(214, 233, 250);
+    padding-top: 70px;
+
+}
+
+.main4-heading{
+    font-family: laisha;
+    display: flex;
+    align-content: center;
+    justify-content: center; 
+       
+    
+    
+       
+}
+
+.shop{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    height: 500px;
+    
+}
+
+.brand{
+    height:420px;
+    width: 300px;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    background-color: aliceblue;
+
+}
+
+.a1image{
+    height: 300px;
+    border: 0px black solid;
+    background-size: cover;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.btn{
+    background-color: aliceblue;
+    border: 0.5px black solid;
+    border-radius: 10px;
+    margin-left: 45px;
+    
+   
+}
+
+/* main 5th  */
+.main5{
+
+    height: 750px;
+    background-color:rgb(214, 233, 250);
+    
+}
+
+.main5-heading{
+    font-family: laisha;
+    display: flex;
+    align-content: center;
+    justify-content: center;   
+    background-color:rgb(214, 233, 250); 
+    
+}
+
+.main5-heading h1{
+    margin-top: 100px;
+}
+
+.choice-shop{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:rgb(214, 233, 250); 
+    height: 600px;
+}
+.c{
+    height: 400px;
+    width: 300px;
+    background-color: aliceblue;
+    border: 2px black solid;
+    border-radius: 20px;
+    margin-top: 5%;
+}
+
+.contactus{
+    height: 300px;
+    background-color:aliceblue;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+/*shopping page*/
+.shop-page{
+   background-color:rgb(214, 233, 250) ;
+}
+
+.shop-container{
+    border: 2px rgb(214, 233, 250) solid;
+    height: 750px;
+   
+}
+
+.shop-box{
+    border: none;
+    height: 300px;
+    display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   background-color: rgb(214, 233, 250);
+   margin-top:70px;
+   border-radius: 100px;
+   width:  98%;
+   margin-left:15px ;
+}
+.product-img{
+   
+ height: 200px;
+ width: 200px;
+ background-size: cover;
+ border: none;
+ border-radius: 30px;
+ 
+}
+
+.product-img:hover{
+    box-shadow: 0px 0px 10px;
+}
+
+.bttn{
+    height: 50px;
+    border: none;
+    background-color: rgb(235, 235, 54);
+    border-radius: 20%;
+}
+.bttn:hover{ 
+box-shadow: 0px 0px 10px  rgb(222, 222, 22);
+}
+
+.bton{
+    height: 50px;
+    border: none;
+    background-color: rgb(83, 208, 83);
+    border-radius: 20%; 
+}
+
+.bton:hover{ 
+    box-shadow: 0px 0px 10px  rgb(36, 190, 36) ;
+    }
+    
+
+
+.quantity{
+    border: none;
+    background-color:whitesmoke;
+    border-radius: 35px ;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: laisha;
+}
+
+.quantity:hover{
+    box-shadow: 0px 0px 10px;
+}
+
+.cost{
+    
+    border-radius: 20px;
+    margin-top: 200px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    
+}
+
+.cost:hover{
+    box-shadow: 0px 0px 10px;   
+}
+
+.drop{
+    height: 30px;
+    width: 40px;
+    border: none;
+    border-radius: 20px;
+}
+
+.drop:hover{
+    box-shadow: 0px 0px 10px;
+}
+
+
+/*Cart*/
+.cart-container{
+    height: 200px;
+    background-color: rgb(42, 143, 232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
